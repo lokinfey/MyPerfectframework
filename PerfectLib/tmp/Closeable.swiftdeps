@@ -1,0 +1,37 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Closeable"
+provides-nominal:
+- "P10PerfectLib9Closeable"
+provides-member:
+- ["P10PerfectLib9Closeable", ""]
+- ["P10PerfectLib9Closeable", "doWithClose"]
+depends-top-level:
+- "Closeable"
+depends-member:
+- ["P10PerfectLib9Closeable", "close"]
+- ["P10PerfectLib9Closeable", "doWithClose"]
+depends-nominal:
+- "P10PerfectLib9Closeable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/LibcShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/RefCount.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/HeapObject.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/FoundationShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/LinuxBridge/module.modulemap"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/cURL_Linux/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/SQLite3/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/OpenSSL_Linux/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/LibEvent/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/ICU/module.map"
+interface-hash: "48387ca07adf412ad68bfbd3412ada78"

@@ -1,0 +1,206 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "serverSQLiteDBs"
+- "serverPerfectLibraries"
+- "PerfectServer"
+provides-nominal:
+- "C10PerfectLib13PerfectServer"
+provides-member:
+- ["C10PerfectLib13PerfectServer", ""]
+depends-top-level:
+- !private "||"
+- !private "+"
+- "StringLiteralType"
+- !private "SessionManager"
+- "PerfectServer"
+- "serverPerfectLibraries"
+- !private "Dir"
+- !private "LogManager"
+- "String"
+- !private "print"
+- "serverSQLiteDBs"
+- !private "UnicodeScalarType"
+- !private "DynamicLoader"
+depends-member:
+- !private ["Ps9AnyObject", "Dir"]
+- !private ["Ps9AnyObject", "DynamicLoader"]
+- !private ["Ps9AnyObject", "LogManager"]
+- ["Ps9AnyObject", "PerfectServer"]
+- !private ["Ps9AnyObject", "SessionManager"]
+- !private ["Ps9AnyObject", "forEachEntry"]
+- !private ["Ps9AnyObject", "homeDir"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "initializeSessionsDatabase"]
+- !private ["Ps9AnyObject", "loadFramework"]
+- !private ["Ps9AnyObject", "loadLibrary"]
+- !private ["Ps9AnyObject", "logMessage"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "realPath"]
+- !private ["Ps9AnyObject", "serverPerfectLibraries"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Comparable", "hasPrefix"]
+- !private ["Ps10Comparable", "hasSuffix"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "hasPrefix"]
+- !private ["Ps28CustomDebugStringConvertible", "hasSuffix"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["C10PerfectLib3Dir", "forEachEntry"]
+- !private ["C10PerfectLib3Dir", "init"]
+- !private ["C10PerfectLib3Dir", "realPath"]
+- !private ["Sd", "deinit"]
+- !private ["C10PerfectLib13DynamicLoader", "init"]
+- !private ["C10PerfectLib13DynamicLoader", "loadFramework"]
+- !private ["C10PerfectLib13DynamicLoader", "loadLibrary"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "hasPrefix"]
+- !private ["Ps9Equatable", "hasSuffix"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "hasPrefix"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "hasSuffix"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "hasPrefix"]
+- !private ["Ps8Hashable", "hasSuffix"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["P10PerfectLib15JSONConvertible", "_getBuiltinLogicValue"]
+- !private ["P10PerfectLib15JSONConvertible", "hasPrefix"]
+- !private ["P10PerfectLib15JSONConvertible", "hasSuffix"]
+- !private ["P10PerfectLib15JSONConvertible", "init"]
+- !private ["C10PerfectLib10LogManager", "logMessage"]
+- !private ["Ps14MirrorPathType", "hasPrefix"]
+- !private ["Ps14MirrorPathType", "hasSuffix"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["Ps16OutputStreamType", "hasPrefix"]
+- !private ["Ps16OutputStreamType", "hasSuffix"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["C10PerfectLib13PerfectServer", "Dir"]
+- !private ["C10PerfectLib13PerfectServer", "DynamicLoader"]
+- !private ["C10PerfectLib13PerfectServer", "LogManager"]
+- ["C10PerfectLib13PerfectServer", "PerfectServer"]
+- !private ["C10PerfectLib13PerfectServer", "SessionManager"]
+- ["C10PerfectLib13PerfectServer", "String"]
+- ["C10PerfectLib13PerfectServer", "deinit"]
+- ["C10PerfectLib13PerfectServer", "homeDir"]
+- ["C10PerfectLib13PerfectServer", "init"]
+- ["C10PerfectLib13PerfectServer", "initializeServices"]
+- !private ["C10PerfectLib13PerfectServer", "print"]
+- !private ["C10PerfectLib13PerfectServer", "serverPerfectLibraries"]
+- ["C10PerfectLib13PerfectServer", "staticPerfectServer"]
+- !private ["C10PerfectLib14SessionManager", "initializeSessionsDatabase"]
+- !private ["Ps10Streamable", "hasPrefix"]
+- !private ["Ps10Streamable", "hasSuffix"]
+- !private ["Ps10Streamable", "init"]
+- !private ["SS", "deinit"]
+- !private ["SS", "hasPrefix"]
+- !private ["SS", "hasSuffix"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "hasPrefix"]
+- !private ["Ps30StringInterpolationConvertible", "hasSuffix"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "hasPrefix"]
+- !private ["Ps24StringLiteralConvertible", "hasSuffix"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "hasPrefix"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "hasSuffix"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "hasPrefix"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "hasSuffix"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "hasPrefix"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "hasSuffix"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "hasPrefix"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "hasSuffix"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "hasPrefix"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "hasSuffix"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "hasPrefix"]
+- !private ["Ps12_Reflectable", "hasSuffix"]
+- !private ["Ps12_Reflectable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "Vs9Character"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "C10PerfectLib3Dir"
+- !private "Sd"
+- !private "C10PerfectLib13DynamicLoader"
+- !private "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "Ps8Hashable"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "P10PerfectLib15JSONConvertible"
+- !private "C10PerfectLib10LogManager"
+- !private "Ps14MirrorPathType"
+- !private "Ps16OutputStreamType"
+- "C10PerfectLib13PerfectServer"
+- !private "C10PerfectLib14SessionManager"
+- !private "Ps10Streamable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/LibcShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/RefCount.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/HeapObject.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/FoundationShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/LinuxBridge/module.modulemap"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/cURL_Linux/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/SQLite3/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/OpenSSL_Linux/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/LibEvent/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/ICU/module.map"
+interface-hash: "4decc401d382f5f31f079c282e9914b2"

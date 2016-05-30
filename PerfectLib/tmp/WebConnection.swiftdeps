@@ -1,0 +1,53 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WebConnection"
+provides-nominal:
+- "P10PerfectLib13WebConnection"
+provides-member:
+- ["P10PerfectLib13WebConnection", ""]
+depends-top-level:
+- "WebConnection"
+- "String"
+- "Int"
+- "NetTCP"
+- "UInt8"
+- "MimeReader"
+depends-member:
+- ["P10PerfectLib13WebConnection", "Int"]
+- ["P10PerfectLib13WebConnection", "MimeReader"]
+- ["P10PerfectLib13WebConnection", "NetTCP"]
+- ["P10PerfectLib13WebConnection", "String"]
+- ["P10PerfectLib13WebConnection", "UInt8"]
+- ["P10PerfectLib13WebConnection", "connection"]
+- ["P10PerfectLib13WebConnection", "getStatus"]
+- ["P10PerfectLib13WebConnection", "mimes"]
+- ["P10PerfectLib13WebConnection", "requestParams"]
+- ["P10PerfectLib13WebConnection", "setStatus"]
+- ["P10PerfectLib13WebConnection", "stdin"]
+- ["P10PerfectLib13WebConnection", "writeBodyBytes"]
+- ["P10PerfectLib13WebConnection", "writeHeaderBytes"]
+- ["P10PerfectLib13WebConnection", "writeHeaderLine"]
+depends-nominal:
+- "P10PerfectLib13WebConnection"
+depends-dynamic-lookup:
+depends-external:
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/LibcShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/RefCount.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/HeapObject.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/FoundationShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/LinuxBridge/module.modulemap"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/cURL_Linux/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/SQLite3/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/OpenSSL_Linux/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/LibEvent/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/ICU/module.map"
+interface-hash: "6f8af069a0c45a1cbb7349e552f74427"

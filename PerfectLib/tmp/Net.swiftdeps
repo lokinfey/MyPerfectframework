@@ -1,0 +1,115 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "invalidSocket"
+- "SocketFileDescriptor"
+provides-nominal:
+- "V10PerfectLib20SocketFileDescriptor"
+provides-member:
+- ["V10PerfectLib20SocketFileDescriptor", ""]
+depends-top-level:
+- "Bool"
+- "invalidSocket"
+- "IntegerLiteralType"
+- "FloatLiteralType"
+- "Int32"
+- "SocketFileDescriptor"
+- !private "evutil_make_socket_nonblocking"
+- !private "!="
+- !private "evutil_make_listen_socket_reuseable"
+- !private "AF_UNSPEC"
+depends-member:
+- ["Ps22BidirectionalIndexType", "init"]
+- ["Ps21BitwiseOperationsType", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "init"]
+- ["Ps16ForwardIndexType", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "init"]
+- ["Vs5Int32", "init"]
+- ["Ps21IntegerArithmeticType", "init"]
+- ["Ps25IntegerLiteralConvertible", "init"]
+- ["Ps11IntegerType", "init"]
+- !private ["P10PerfectLib15JSONConvertible", "_getBuiltinLogicValue"]
+- ["Ps21RandomAccessIndexType", "init"]
+- ["Ps17SignedIntegerType", "init"]
+- ["Ps16SignedNumberType", "init"]
+- !private ["V10PerfectLib20SocketFileDescriptor", "AF_UNSPEC"]
+- ["V10PerfectLib20SocketFileDescriptor", "Bool"]
+- ["V10PerfectLib20SocketFileDescriptor", "Int32"]
+- !private ["V10PerfectLib20SocketFileDescriptor", "evutil_make_listen_socket_reuseable"]
+- !private ["V10PerfectLib20SocketFileDescriptor", "evutil_make_socket_nonblocking"]
+- ["V10PerfectLib20SocketFileDescriptor", "family"]
+- ["V10PerfectLib20SocketFileDescriptor", "fd"]
+- ["V10PerfectLib20SocketFileDescriptor", "init"]
+- !private ["V10PerfectLib20SocketFileDescriptor", "invalidSocket"]
+- ["V10PerfectLib20SocketFileDescriptor", "isValid"]
+- ["V10PerfectLib20SocketFileDescriptor", "switchToNBIO"]
+- ["Ps10Strideable", "init"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- ["Ps33_BuiltinIntegerLiteralConvertible", "init"]
+- ["Ps14_Incrementable", "init"]
+- ["Ps22_IntegerArithmeticType", "init"]
+- ["Ps12_IntegerType", "init"]
+- ["Ps22_RandomAccessAmbiguity", "init"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- ["Ps12_Reflectable", "init"]
+- ["Ps18_SignedIntegerType", "init"]
+depends-nominal:
+- "Ps22BidirectionalIndexType"
+- "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- "Ps10Comparable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps16ForwardIndexType"
+- "Ps8Hashable"
+- "Vs5Int32"
+- "Ps21IntegerArithmeticType"
+- "Ps25IntegerLiteralConvertible"
+- "Ps11IntegerType"
+- !private "P10PerfectLib15JSONConvertible"
+- "Ps21RandomAccessIndexType"
+- "Ps17SignedIntegerType"
+- "Ps16SignedNumberType"
+- "V10PerfectLib20SocketFileDescriptor"
+- "Ps10Strideable"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- "Ps33_BuiltinIntegerLiteralConvertible"
+- "Ps14_Incrementable"
+- "Ps22_IntegerArithmeticType"
+- "Ps12_IntegerType"
+- "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/LibcShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/RefCount.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/HeapObject.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/FoundationShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/LinuxBridge/module.modulemap"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/cURL_Linux/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/SQLite3/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/OpenSSL_Linux/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/LibEvent/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/ICU/module.map"
+interface-hash: "50c40c836b23c18fcfbe773779571b22"

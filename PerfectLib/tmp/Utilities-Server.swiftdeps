@@ -1,0 +1,72 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["Sc", ""]
+- ["Sc", "isWhiteSpace"]
+- ["Sc", "isDigit"]
+- ["Sc", "isAlphaNum"]
+- ["Sc", "isHexDigit"]
+depends-top-level:
+- "Bool"
+- "UnicodeScalar"
+- !private "ICU"
+depends-member:
+- !private ["Ps9AnyObject", "isAlphaNum"]
+- !private ["Ps9AnyObject", "isDigit"]
+- !private ["Ps9AnyObject", "isHexDigit"]
+- !private ["Ps9AnyObject", "isWhiteSpace"]
+- !private ["Ps10Comparable", "ICU"]
+- !private ["Ps28CustomDebugStringConvertible", "ICU"]
+- !private ["Ps23CustomStringConvertible", "ICU"]
+- !private ["Ps9Equatable", "ICU"]
+- !private ["Ps8Hashable", "ICU"]
+- !private ["C10PerfectLib3ICU", "isAlphaNum"]
+- !private ["C10PerfectLib3ICU", "isDigit"]
+- !private ["C10PerfectLib3ICU", "isHexDigit"]
+- !private ["C10PerfectLib3ICU", "isWhiteSpace"]
+- !private ["Ps10Streamable", "ICU"]
+- ["Sc", "Bool"]
+- !private ["Sc", "ICU"]
+- ["Sc", "isAlphaNum"]
+- ["Sc", "isDigit"]
+- ["Sc", "isHexDigit"]
+- ["Sc", "isWhiteSpace"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "ICU"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "ICU"]
+- !private ["Ps12_Reflectable", "ICU"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps8Hashable"
+- !private "C10PerfectLib3ICU"
+- !private "Ps10Streamable"
+- "Sc"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/LibcShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/RefCount.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/HeapObject.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/FoundationShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/LinuxBridge/module.modulemap"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/cURL_Linux/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/SQLite3/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/OpenSSL_Linux/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/LibEvent/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/ICU/module.map"
+interface-hash: "a6882264dd136f8d61d3571864243ffd"

@@ -1,0 +1,256 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EV_TIMEOUT"
+- "EV_READ"
+- "EV_WRITE"
+- "EventCallBack"
+- "LibEvent"
+- "EVLOOP_NO_EXIT_ON_EMPTY"
+- "LibEventBase"
+provides-nominal:
+- "C10PerfectLib8LibEvent"
+- "C10PerfectLib12LibEventBase"
+provides-member:
+- ["C10PerfectLib8LibEvent", ""]
+- ["C10PerfectLib12LibEventBase", ""]
+depends-top-level:
+- !private "print"
+- !private "UnsafeMutablePointer"
+- "EVLOOP_NO_EXIT_ON_EMPTY"
+- !private "Unmanaged"
+- !private "floor"
+- !private "*"
+- "Int16"
+- !private "-"
+- !private "StringLiteralType"
+- "IntegerLiteralType"
+- !private "event_add"
+- !private "event_base_new"
+- "LibEvent"
+- "EV_TIMEOUT"
+- "AnyObject"
+- "PrimEventCallBack"
+- "timeval"
+- !private "evthread_use_pthreads"
+- !private "=="
+- "EV_WRITE"
+- "EV_READ"
+- !private "Int"
+- "FloatLiteralType"
+- !private "event_free"
+- "LibEventBase"
+- "Void"
+- "EventCallBack"
+- "Int32"
+- "COpaquePointer"
+- "Double"
+- !private "event_new"
+- !private "event_base_dispatch"
+- "Threading"
+depends-member:
+- !private ["Ps9AnyObject", "COpaquePointer"]
+- !private ["Ps9AnyObject", "EV_TIMEOUT"]
+- !private ["Ps9AnyObject", "Int"]
+- !private ["Ps9AnyObject", "Int16"]
+- !private ["Ps9AnyObject", "LibEvent"]
+- ["Ps9AnyObject", "LibEventBase"]
+- ["Ps9AnyObject", "ThreadQueue"]
+- !private ["Ps9AnyObject", "Threading"]
+- !private ["Ps9AnyObject", "Unmanaged"]
+- !private ["Ps9AnyObject", "UnsafeMutablePointer"]
+- !private ["Ps9AnyObject", "add"]
+- !private ["Ps9AnyObject", "addDummyEvent"]
+- !private ["Ps9AnyObject", "base"]
+- !private ["Ps9AnyObject", "baseDispatchQueue"]
+- !private ["Ps9AnyObject", "cb"]
+- !private ["Ps9AnyObject", "createConcurrentQueue"]
+- !private ["Ps9AnyObject", "del"]
+- !private ["Ps9AnyObject", "dispatchBlock"]
+- !private ["Ps9AnyObject", "event"]
+- !private ["Ps9AnyObject", "eventBase"]
+- !private ["Ps9AnyObject", "eventBaseLoop"]
+- !private ["Ps9AnyObject", "eventCallBack"]
+- !private ["Ps9AnyObject", "eventDispatchQueue"]
+- !private ["Ps9AnyObject", "event_add"]
+- !private ["Ps9AnyObject", "event_base_dispatch"]
+- !private ["Ps9AnyObject", "event_base_new"]
+- !private ["Ps9AnyObject", "event_free"]
+- !private ["Ps9AnyObject", "event_new"]
+- !private ["Ps9AnyObject", "evthread_use_pthreads"]
+- !private ["Ps9AnyObject", "floor"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "timeval"]
+- !private ["Ps9AnyObject", "triggerEventBaseLoop"]
+- !private ["Ps9AnyObject", "userData"]
+- ["Ps9AnyObject", ""]
+- ["Ps22BidirectionalIndexType", "init"]
+- ["Ps21BitwiseOperationsType", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Vs14COpaquePointer", "init"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "init"]
+- ["Ps16ForwardIndexType", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "init"]
+- !private ["Si", "init"]
+- !private ["Vs5Int16", "init"]
+- ["Vs5Int32", "init"]
+- ["Ps21IntegerArithmeticType", "init"]
+- ["Ps25IntegerLiteralConvertible", "init"]
+- ["Ps11IntegerType", "init"]
+- ["P10PerfectLib15JSONConvertible", "Some"]
+- !private ["P10PerfectLib15JSONConvertible", "_getBuiltinLogicValue"]
+- !private ["P10PerfectLib15JSONConvertible", "init"]
+- ["C10PerfectLib8LibEvent", "AnyObject"]
+- ["C10PerfectLib8LibEvent", "COpaquePointer"]
+- ["C10PerfectLib8LibEvent", "Double"]
+- ["C10PerfectLib8LibEvent", "EventCallBack"]
+- !private ["C10PerfectLib8LibEvent", "Int"]
+- !private ["C10PerfectLib8LibEvent", "Int16"]
+- ["C10PerfectLib8LibEvent", "Int32"]
+- !private ["C10PerfectLib8LibEvent", "LibEvent"]
+- ["C10PerfectLib8LibEvent", "LibEventBase"]
+- ["C10PerfectLib8LibEvent", "PrimEventCallBack"]
+- !private ["C10PerfectLib8LibEvent", "Threading"]
+- !private ["C10PerfectLib8LibEvent", "Unmanaged"]
+- !private ["C10PerfectLib8LibEvent", "UnsafeMutablePointer"]
+- ["C10PerfectLib8LibEvent", "add"]
+- !private ["C10PerfectLib8LibEvent", "base"]
+- !private ["C10PerfectLib8LibEvent", "cb"]
+- ["C10PerfectLib8LibEvent", "deinit"]
+- ["C10PerfectLib8LibEvent", "del"]
+- !private ["C10PerfectLib8LibEvent", "event"]
+- ["C10PerfectLib8LibEvent", "eventBase"]
+- !private ["C10PerfectLib8LibEvent", "eventCallBack"]
+- !private ["C10PerfectLib8LibEvent", "event_add"]
+- !private ["C10PerfectLib8LibEvent", "event_free"]
+- !private ["C10PerfectLib8LibEvent", "event_new"]
+- !private ["C10PerfectLib8LibEvent", "floor"]
+- ["C10PerfectLib8LibEvent", "init"]
+- ["C10PerfectLib8LibEvent", "timeval"]
+- !private ["C10PerfectLib8LibEvent", "userData"]
+- !private ["C10PerfectLib12LibEventBase", "AnyObject"]
+- ["C10PerfectLib12LibEventBase", "COpaquePointer"]
+- !private ["C10PerfectLib12LibEventBase", "EV_TIMEOUT"]
+- !private ["C10PerfectLib12LibEventBase", "Int16"]
+- !private ["C10PerfectLib12LibEventBase", "Int32"]
+- !private ["C10PerfectLib12LibEventBase", "LibEvent"]
+- ["C10PerfectLib12LibEventBase", "Threading"]
+- !private ["C10PerfectLib12LibEventBase", "addDummyEvent"]
+- !private ["C10PerfectLib12LibEventBase", "baseDispatchQueue"]
+- ["C10PerfectLib12LibEventBase", "deinit"]
+- ["C10PerfectLib12LibEventBase", "eventBase"]
+- !private ["C10PerfectLib12LibEventBase", "eventBaseLoop"]
+- ["C10PerfectLib12LibEventBase", "eventDispatchQueue"]
+- !private ["C10PerfectLib12LibEventBase", "event_base_dispatch"]
+- !private ["C10PerfectLib12LibEventBase", "event_base_new"]
+- !private ["C10PerfectLib12LibEventBase", "evthread_use_pthreads"]
+- ["C10PerfectLib12LibEventBase", "init"]
+- !private ["C10PerfectLib12LibEventBase", "print"]
+- !private ["C10PerfectLib12LibEventBase", "triggerEventBaseLoop"]
+- !private ["Ps14MirrorPathType", "init"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- !private ["Ps21NilLiteralConvertible", "init"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- ["Ps21RandomAccessIndexType", "init"]
+- ["Ps17SignedIntegerType", "init"]
+- ["Ps16SignedNumberType", "init"]
+- ["Ps10Strideable", "init"]
+- ["C10PerfectLib9Threading", "ThreadQueue"]
+- !private ["C10PerfectLib9Threading", "createConcurrentQueue"]
+- !private ["C10PerfectLib9Threading", "dispatchBlock"]
+- !private ["Vs9Unmanaged", "fromOpaque"]
+- !private ["Vs9Unmanaged", "passRetained"]
+- !private ["Vs9Unmanaged", "takeRetainedValue"]
+- !private ["Vs9Unmanaged", "toOpaque"]
+- !private ["Sp", "init"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- ["Ps33_BuiltinIntegerLiteralConvertible", "init"]
+- ["Ps14_Incrementable", "init"]
+- ["Ps22_IntegerArithmeticType", "init"]
+- ["Ps12_IntegerType", "init"]
+- !private ["Ps12_PointerType", "init"]
+- ["Ps22_RandomAccessAmbiguity", "init"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- ["Ps12_Reflectable", "init"]
+- ["Ps18_SignedIntegerType", "init"]
+- !private ["VSC7timeval", "init"]
+- !private ["VSC7timeval", "tv_sec"]
+- !private ["VSC7timeval", "tv_usec"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps22BidirectionalIndexType"
+- "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "Vs14COpaquePointer"
+- "Ps11CVarArgType"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps16ForwardIndexType"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Vs5Int16"
+- "Vs5Int32"
+- "Ps21IntegerArithmeticType"
+- "Ps25IntegerLiteralConvertible"
+- "Ps11IntegerType"
+- "P10PerfectLib15JSONConvertible"
+- "C10PerfectLib8LibEvent"
+- "C10PerfectLib12LibEventBase"
+- !private "Ps14MirrorPathType"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- "Ps21RandomAccessIndexType"
+- "Ps17SignedIntegerType"
+- "Ps16SignedNumberType"
+- "Ps10Strideable"
+- "C10PerfectLib9Threading"
+- !private "Vs9Unmanaged"
+- !private "Sp"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- "Ps33_BuiltinIntegerLiteralConvertible"
+- "Ps14_Incrementable"
+- "Ps22_IntegerArithmeticType"
+- "Ps12_IntegerType"
+- !private "Ps12_PointerType"
+- "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- "Ps18_SignedIntegerType"
+- !private "VSC7timeval"
+depends-dynamic-lookup:
+depends-external:
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/LibcShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/RefCount.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/HeapObject.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/FoundationShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/LinuxBridge/module.modulemap"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/cURL_Linux/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/SQLite3/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/OpenSSL_Linux/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/LibEvent/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/ICU/module.map"
+interface-hash: "a52845b987ebe808bb87990d10461c6f"

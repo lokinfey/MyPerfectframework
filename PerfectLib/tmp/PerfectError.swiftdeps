@@ -1,0 +1,101 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "errno"
+- "PerfectError"
+- "ThrowFileError"
+- "ThrowSystemError"
+- "ThrowNetworkError"
+provides-nominal:
+- "O10PerfectLib12PerfectError"
+provides-member:
+- ["O10PerfectLib12PerfectError", ""]
+depends-top-level:
+- "ThrowNetworkError"
+- !private "strerror"
+- "ThrowSystemError"
+- "PerfectError"
+- !private "IntegerLiteralType"
+- "String"
+- "ThrowFileError"
+- "ErrorType"
+- !private "linux_errno"
+- !private "FloatLiteralType"
+- "errno"
+- "Int32"
+depends-member:
+- !private ["Ps10Comparable", "fromCString"]
+- !private ["Ps28CustomDebugStringConvertible", "fromCString"]
+- !private ["Ps9Equatable", "fromCString"]
+- !private ["Ps9ErrorType", "FileError"]
+- !private ["Ps9ErrorType", "NetworkError"]
+- !private ["Ps9ErrorType", "SystemError"]
+- ["Ps9ErrorType", "_code"]
+- ["Ps9ErrorType", "_domain"]
+- ["Ps9ErrorType", ""]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "fromCString"]
+- !private ["Ps8Hashable", "fromCString"]
+- !private ["P10PerfectLib15JSONConvertible", "fromCString"]
+- !private ["Ps14MirrorPathType", "fromCString"]
+- !private ["Ps16OutputStreamType", "fromCString"]
+- ["O10PerfectLib12PerfectError", "APIError"]
+- ["O10PerfectLib12PerfectError", "FileError"]
+- ["O10PerfectLib12PerfectError", "Int32"]
+- ["O10PerfectLib12PerfectError", "NetworkError"]
+- ["O10PerfectLib12PerfectError", "String"]
+- ["O10PerfectLib12PerfectError", "SystemError"]
+- ["O10PerfectLib12PerfectError", "_code"]
+- ["O10PerfectLib12PerfectError", "_domain"]
+- ["O10PerfectLib12PerfectError", "deinit"]
+- !private ["Ps10Streamable", "fromCString"]
+- !private ["SS", "fromCString"]
+- !private ["Ps30StringInterpolationConvertible", "fromCString"]
+- !private ["Ps24StringLiteralConvertible", "fromCString"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "fromCString"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "fromCString"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "fromCString"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "fromCString"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "fromCString"]
+- !private ["Ps12_Reflectable", "fromCString"]
+depends-nominal:
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps9Equatable"
+- "Ps9ErrorType"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps8Hashable"
+- !private "P10PerfectLib15JSONConvertible"
+- !private "Ps14MirrorPathType"
+- !private "Ps16OutputStreamType"
+- "O10PerfectLib12PerfectError"
+- !private "Ps10Streamable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/LibcShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/RefCount.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/HeapObject.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/FoundationShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/LinuxBridge/module.modulemap"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/cURL_Linux/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/SQLite3/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/OpenSSL_Linux/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/LibEvent/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/ICU/module.map"
+interface-hash: "93ea777504a244af2f555f884aae2dc2"

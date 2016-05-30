@@ -1,0 +1,142 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PageHandlerRegistry"
+- "PageHandler"
+- "RequestHandler"
+provides-nominal:
+- "C10PerfectLib19PageHandlerRegistry"
+- "P10PerfectLib11PageHandler"
+- "P10PerfectLib14RequestHandler"
+provides-member:
+- ["C10PerfectLib19PageHandlerRegistry", ""]
+- ["P10PerfectLib11PageHandler", ""]
+- ["P10PerfectLib14RequestHandler", ""]
+depends-top-level:
+- "MustacheEvaluationOutputCollector"
+- !private "!="
+- "WebResponse"
+- "PageHandler"
+- "RequestHandler"
+- "PageHandlerRegistry"
+- "String"
+- "Bool"
+- "WebRequest"
+- "MustacheEvaluationContext"
+depends-member:
+- ["Ps9AnyObject", "MapType"]
+- ["Ps9AnyObject", "PageHandlerGenerator"]
+- !private ["Ps9AnyObject", "PageHandlerRegistry"]
+- ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "addPageHandler"]
+- !private ["Ps9AnyObject", "generator"]
+- !private ["Ps9AnyObject", "globalRequestHandler"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- ["Ps14CollectionType", "init"]
+- !private ["Ps14CollectionType", "subscript"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Vs10Dictionary", "init"]
+- !private ["Vs10Dictionary", "subscript"]
+- ["Ps28DictionaryLiteralConvertible", "init"]
+- !private ["Ps28DictionaryLiteralConvertible", "subscript"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- ["Ps9Indexable", "init"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- ["P10PerfectLib15JSONConvertible", "Some"]
+- ["P10PerfectLib15JSONConvertible", "init"]
+- !private ["P10PerfectLib15JSONConvertible", "subscript"]
+- ["C10PerfectLib25MustacheEvaluationContext", "MapType"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- ["P10PerfectLib11PageHandler", "MustacheEvaluationContext"]
+- ["P10PerfectLib11PageHandler", "MustacheEvaluationOutputCollector"]
+- ["P10PerfectLib11PageHandler", "valuesForResponse"]
+- ["C10PerfectLib19PageHandlerRegistry", "Bool"]
+- ["C10PerfectLib19PageHandlerRegistry", "PageHandler"]
+- ["C10PerfectLib19PageHandlerRegistry", "PageHandlerGenerator"]
+- !private ["C10PerfectLib19PageHandlerRegistry", "PageHandlerRegistry"]
+- ["C10PerfectLib19PageHandlerRegistry", "RequestHandler"]
+- ["C10PerfectLib19PageHandlerRegistry", "RequestHandlerGenerator"]
+- ["C10PerfectLib19PageHandlerRegistry", "String"]
+- ["C10PerfectLib19PageHandlerRegistry", "WebResponse"]
+- ["C10PerfectLib19PageHandlerRegistry", "addPageHandler"]
+- ["C10PerfectLib19PageHandlerRegistry", "addRequestHandler"]
+- ["C10PerfectLib19PageHandlerRegistry", "deinit"]
+- !private ["C10PerfectLib19PageHandlerRegistry", "generator"]
+- ["C10PerfectLib19PageHandlerRegistry", "getPageHandler"]
+- ["C10PerfectLib19PageHandlerRegistry", "getRequestHandler"]
+- !private ["C10PerfectLib19PageHandlerRegistry", "globalRequestHandler"]
+- ["C10PerfectLib19PageHandlerRegistry", "hasGlobalHandler"]
+- ["C10PerfectLib19PageHandlerRegistry", "init"]
+- ["P10PerfectLib14RequestHandler", "WebRequest"]
+- ["P10PerfectLib14RequestHandler", "WebResponse"]
+- ["P10PerfectLib14RequestHandler", "handleRequest"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- ["Ps12SequenceType", "init"]
+- !private ["Ps12SequenceType", "subscript"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- ["Ps12_Reflectable", "Some"]
+- ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "subscript"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps14CollectionType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- "Ps28DictionaryLiteralConvertible"
+- !private "Ps13GeneratorType"
+- "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- "P10PerfectLib15JSONConvertible"
+- "C10PerfectLib25MustacheEvaluationContext"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- "P10PerfectLib11PageHandler"
+- "C10PerfectLib19PageHandlerRegistry"
+- "P10PerfectLib14RequestHandler"
+- "Ps12SequenceType"
+- !private "Vs5Slice"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/LibcShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/RefCount.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/HeapObject.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/FoundationShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/kinfey/Dev/swift-2.2-RELEASE-ubuntu15.10/usr/lib/swift/shims/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/LinuxBridge/module.modulemap"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/cURL_Linux/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/SQLite3/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/OpenSSL_Linux/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/LibEvent/module.map"
+- "/home/kinfey/Dev/Perfect-1.0.0/PerfectLib/linked/ICU/module.map"
+interface-hash: "e46bcb48e690f810dab9515e2f1d7ff0"

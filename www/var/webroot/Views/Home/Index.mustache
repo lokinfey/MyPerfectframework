@@ -1,0 +1,348 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>手机校园足球网</title>
+<style>
+    body {
+        background: black;
+        margin: 0;
+        font-family: 'microsoft yahei', sans-serif;
+    }
+    #warp {
+        width: 100%;
+        margin: auto;
+        background: url(../Content/img/bg/bg_01.jpg) center top no-repeat;
+    }
+    #header {
+        width: 100%;
+        height: 220px;
+        margin: auto;
+        background: url(../Content/img/menu/header.png) center no-repeat;
+    }
+    #menu {
+        width: 1248px;
+        height: 50px;
+        margin: auto;
+        padding-top: 110px;
+    }
+    #menu a {
+        float: left;
+        height: 50px;
+    }
+    #cont {
+        position: relative;
+        width: 1258px;
+        margin: auto;
+    }
+    #cont_top {
+        padding: 20px 4px 0;
+    }
+    #cont_top_left {
+        width: 336px;
+        height: 500px;
+        border: #092b6f solid 4px;
+        background: white;
+        padding-top: 12px;
+        float: left;
+    }
+    #cont_top_left_1 {
+        display: block;
+        width: 314px;
+        height: 150px;
+        margin: auto;
+        background: url(../Content/img/cont_top/cont_top_left_1.jpg);
+    }
+    #cont_top_left_2 {
+        width: 308px;
+        height: 82px;
+        margin: 12px auto 0;
+        padding-top: 246px;
+        background: url(../Content/img/cont_top/cont_top_left_2.jpg);
+    }
+    #cont_top_left_3 {
+        width: 286px;
+        height: 40px;
+        margin: auto;
+        line-height: 40px;
+        color: #fcd200;
+        text-align: center;
+        font-weight: bold;
+        background: linear-gradient(to bottom, #4c4c4c 0%,#333333 50%,#000000 51%,#000000 100%);
+    }
+    #cont_top_left_4 {
+        width: 286px;
+        height: 40px;
+        margin: auto;
+        font-size: .8em;
+        line-height: 40px;
+        text-align: center;
+    }
+    #cont_top_right {
+        width: 862px;
+        height: 488px;
+        margin-left: 12px;
+        float: left;
+        border: #092b6f solid 4px;
+        background: white;
+        padding: 12px;
+    }
+    #cont_top_right_1 {
+        float: left;
+    }
+    #cont_top_right_1 img {
+        display: block;
+        border: #c8c8c8 solid 2px;
+        width: 180px;
+        height: 120px;
+        margin-bottom: 12px;
+    }
+    #cont_top_right_1 img:hover {
+        border: #c41e0e solid 2px;
+    }
+    #cont_top_right_2 {
+        float: left;
+        padding-left: 12px;
+    }
+    #cont_top_right_2 img {
+        display: block;
+        border: #c8c8c8 solid 2px;
+        width: 662px;
+        height: 392px;
+    }
+    #cont_top_right_3 {
+        clear: both;
+        height: 80px;
+        overflow-y: hidden;
+        text-align: right;
+        font-size: 1.8em;
+        padding-right: 150px;
+    }
+    #iphone {
+        position: absolute;
+        top: 90px;
+        left: 1100px;
+    }
+    #cont_bot {
+        width: 1254px;
+        margin: auto;
+        background: url(../Content/img/cont_bot/cont_bot.jpg) top no-repeat;
+        clear: both;
+        margin-top: 530px;
+        padding-left: 4px;
+    }
+    #cont_bot_1 {
+        width: 1258px;
+        height: 150px;
+        position: relative;
+    }
+    #cont_bot_1 a {
+        display: block;
+        position: absolute;
+        left: 1130px;
+        top: 80px;
+        width: 70px;
+        height: 26px;
+    }
+    #cont_bot_2 {
+        width: 1208px;
+        padding: 0 20px;
+        background: rgba(0, 0, 0, .7);
+        margin-bottom: 40px;
+    }
+    #cont_bot_2 ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    #cont_bot_2 ul:after {
+        content: '';
+        clear: both;
+        display: block;
+    }
+    #cont_bot_2 ul li {
+        width: 282px;
+        float: left;
+        margin: 0 0 40px 15px;
+    }
+    #cont_bot_2 ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: .8em;
+        text-align: center;
+    }
+    #cont_bot_2 ul li a img {
+        display: block;
+        width: 278px;
+        border: #3abfcd solid 2px;
+    }
+    #cont_bot_2 ul li a:hover img {
+        border: #c41e0e solid 2px;
+    }
+    #footer {
+        max-width: 1900px;
+        margin: auto;
+        padding-top: 50px;
+        background: linear-gradient(to bottom, #6c6c6c 0%, #505050 100%);
+    }
+    #footer_top {
+        width: 100%;
+        border-bottom: #343740 solid 1px;
+        padding-bottom: 20px;
+    }
+    #footer_top_0 {
+        border-left: #4a4c51 solid 1px;
+        font-size: .8em;
+        width: 850px;
+        margin: auto;
+    }
+    #footer_top_0:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+    #footer_top_0 div {
+        padding-left: 10px;
+        border-left: #6f6f6f solid 1px;
+        border-right: #4a4c51 solid 1px;
+        float: left;
+        width: 200px;
+        height: 280px;
+    }
+    #footer_top_0 div h4 {
+        color: white;
+    }
+    #footer_top_0 div a {
+        text-decoration: none;
+        color: #bababa;
+        display: block;
+        line-height: 2em;
+    }
+    #footer_top_0 div a:hover {
+        color: white;
+    }
+    #footer_sns {
+        width: 140px !important;
+        height: 27px !important;
+        background: url(../Content/img/footer.png);
+        padding: 0 !important;
+        border: 0 !important;
+        float: none !important;
+        margin-top: .5em;
+        position: relative;
+    }
+    #footer_sns a {
+        display: block;
+        width: 27px;
+        height: 27px;
+        position: absolute;
+    }
+    #footer_bot {
+        width: 100%;
+        height: 25px;
+        border-top: #505050 solid 1px;
+        background: #343740;
+        color: #b4b4b4;
+        text-align: center;
+        line-height: 25px;
+        font-size: .8em;
+    }
+</style>
+<div style="width:100%; min-width:1500px; margin:auto; background: url(../Content/img/bg/bg_02.jpg) top center repeat-y;">
+<div id="warp">
+    <div id="header">
+        <div id="menu">
+            <a href="javascript:" style="background:url(../Content/img/menu/menu_01.jpg); width:108px;"></a>
+            <a href="javascript:" style="background:url(../Content/img/menu/menu_02.jpg); width:170px; margin-left:20px;"></a>
+            <a href="javascript:" style="background:url(../Content/img/menu/menu_03.jpg); width:170px; margin-left:25px;"></a>
+            <a href="javascript:" style="background:url(../Content/img/menu/menu_04.jpg); width:165px; margin-left:275px;"></a>
+            <a href="javascript:" style="background:url(../Content/img/menu/menu_05.jpg); width:290px; margin-left:25px;"></a>
+        </div>
+    </div>
+    <div id="cont">
+        <div id="cont_top">
+            <div id="cont_top_left">
+                <a id="cont_top_left_1" href="javascript:"></a>
+                <div id="cont_top_left_2">
+                    <div id="cont_top_left_3">0天</div>
+                    <div id="cont_top_left_4">直播时间：2016年06月01日下午17:00-19:00</div>
+                </div>
+            </div>
+            <div id="cont_top_right">
+                <div id="cont_top_right_1">
+                    <img src="../Content/img/cont_top/1.png">
+                    <img src="../Content/img/cont_top/2.png">
+                    <img src="../Content/img/cont_top/3.png">
+                </div>
+                <div id="cont_top_right_2">
+                    <img src="../Content/img/cont_top/1.png">
+                </div>
+                <div id="cont_top_right_3">
+                    <b>足球教学赛：大埔小学 vs 梅州小学</b>：{{str}}<br>直播时间：2016年4月27日10:50—11:25
+                </div>
+            </div>
+        </div>
+        <img id="iphone" src="../Content/img/cont_top/iphone.png">
+        <div id="cont_bot">
+            <div id="cont_bot_1"><a href="javascript:"></a></div>
+            <div id="cont_bot_2">
+                <ul>  
+                 {{#list}}
+                    <li><a href={{url}} target="_blank">
+                        <img src={{img}}>
+                        <p>{{name}}-{{playdate}}</p>
+                    </a></li>
+                 {{/list}}
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="footer_top">
+            <div id="footer_top_0">
+                <div id="footer_top_1">
+                    <h4>关于</h4>
+                    <a href="javascript:">关于本网站</a>
+                    <a href="javascript:">服务协定</a>
+                    <a href="javascript:">私隐政策</a>
+                    <a href="javascript:">联系我们</a>
+                    <a href="javascript:">意见反映</a>
+                    <a href="javascript:">技术支持</a>
+                </div>
+                <div id="footer_top_2">
+                    <h4>常见问题</h4>
+                    <a href="javascript:">什么是 MOOC</a>
+                    <a href="javascript:">微课与幕课的关系</a>
+                    <a href="javascript:">我如何制作微课</a>
+                    <a href="javascript:">如何加入校园开放教育计划</a>
+                    <a href="javascript:">怎样才能获得帐号</a>
+                    <a href="javascript:">如何上传我的微课</a>
+                    <a href="javascript:">学习流程建议</a>
+                </div>
+                <div id="footer_top_3">
+                    <h4>支持服务</h4>
+                    <a href="javascript:">学生操作手册文本版</a>
+                    <a href="javascript:">学生操作手册视频版</a>
+                    <a href="javascript:">微课网络教学操作手册</a>
+                    <a href="javascript:">移动客户端</a>
+                    <a href="javascript:">电话：020-85214760</a>
+                    <a href="javascript:">微信：校园开放教育</a>
+                    <a href="javascript:">QQ：1287692625</a>
+                    <div id="footer_sns">
+                        <a href="javascript:1"></a>
+                        <a href="javascript:2" style="left:38px;"></a>
+                        <a href="javascript:3" style="left:76px;"></a>
+                        <a href="javascript:4" style="left:115px;"></a>
+                    </div>
+                </div>
+                <div id="footer_top_4" style="border-right:0;">
+                    <h4>友情链接</h4>
+                    <a href="javascript:">华南师范大学</a>
+                    <a href="javascript:">同步进修课堂</a>
+                    <a href="javascript:">华师在线</a>
+                    <a href="javascript:">华师公开课</a>
+                </div>
+            </div>
+        </div>
+        <div id="footer_bot">主办单位：广东省职业教育研究会　　支持单位：华南师范大学网络教育学院、华师凤凰教育</div>
+    </div>
+</div>
+</div>
