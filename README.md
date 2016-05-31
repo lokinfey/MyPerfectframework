@@ -1,4 +1,4 @@
-This is My Perfect Samples. I use Visual Studio Code to compile Perfect framework.
+This is My Perfect Samples. I use Visual Studio Code to compile Perfect framework in Liunx.
 
 ## /Rails
 
